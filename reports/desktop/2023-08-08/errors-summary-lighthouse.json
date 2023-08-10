@@ -1,1 +1,10 @@
-{}
+{
+  "aria-allowed-attr": 1719,
+  "listitem": 573,
+  "link-name": 391,
+  "color-contrast": 12,
+  "heading-order": 11,
+  "aria-required-parent": 6,
+  "aria-hidden-focus": 1,
+  "image-alt": 1
+}
