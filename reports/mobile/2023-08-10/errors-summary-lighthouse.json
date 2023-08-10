@@ -1,1 +1,8 @@
-{}
+{
+  "aria-allowed-attr": 955,
+  "link-name": 200,
+  "heading-order": 12,
+  "color-contrast": 11,
+  "aria-required-parent": 6,
+  "aria-hidden-focus": 1
+}
