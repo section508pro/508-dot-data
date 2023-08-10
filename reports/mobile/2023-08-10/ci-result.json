@@ -2,7 +2,7 @@
   {
     "path": "/",
     "score": 0.98,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 1
@@ -49,8 +49,8 @@
   },
   {
     "path": "/2019-infra-grant-awards-large-map",
-    "score": 0.9,
-    "performance": 0.74,
+    "score": 0.89,
+    "performance": 0.71,
     "accessibility": 0.91,
     "best-practices": 1,
     "seo": 0.93
@@ -82,7 +82,7 @@
   {
     "path": "/acat",
     "score": 0.89,
-    "performance": 0.82,
+    "performance": 0.81,
     "accessibility": 0.91,
     "best-practices": 0.92,
     "seo": 0.91
@@ -122,15 +122,15 @@
   {
     "path": "/accessibility",
     "score": 0.93,
-    "performance": 0.89,
+    "performance": 0.88,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.93
   },
   {
     "path": "/accessibility/accessibility-strategic-plan/strategic-plan-framework",
-    "score": 0.96,
-    "performance": 1,
+    "score": 0.95,
+    "performance": 0.98,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.92
@@ -153,8 +153,8 @@
   },
   {
     "path": "/accessibility/inclusivedesign",
-    "score": 0.89,
-    "performance": 0.88,
+    "score": 0.86,
+    "performance": 0.78,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.85
@@ -178,7 +178,7 @@
   {
     "path": "/accessibility/priorities/air-travel",
     "score": 0.91,
-    "performance": 0.88,
+    "performance": 0.89,
     "accessibility": 0.91,
     "best-practices": 0.92,
     "seo": 0.93
@@ -210,7 +210,7 @@
   {
     "path": "/administration/human-resources/dot-drug-and-alcohol-testing-guide-dot-employees",
     "score": 0.93,
-    "performance": 0.9,
+    "performance": 0.89,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.92
@@ -265,78 +265,78 @@
   },
   {
     "path": "/administrations/assistant-secretary-administration/willie-h-smith",
-    "score": 0.93,
-    "performance": 0.88,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.92
-  },
-  {
-    "path": "/administrations/assistant-secretary-research-and-technology/deputy-associate-administrator-and",
-    "score": 0.93,
-    "performance": 0.89,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.92
-  },
-  {
-    "path": "/administrations/assistant-secretary-research-and-technology/federal-highway-administration-2022",
-    "score": 0.93,
-    "performance": 0.97,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.84
-  },
-  {
-    "path": "/administrations/assistant-secretary-research-and-technology/federal-motor-carrier-safety-3",
-    "score": 0.93,
-    "performance": 0.98,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.84
-  },
-  {
-    "path": "/administrations/assistant-secretary-research-and-technology/federal-motor-carrier-safety-5",
-    "score": 0.93,
-    "performance": 0.98,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.84
-  },
-  {
-    "path": "/administrations/assistant-secretary-research-and-technology/our-programs",
-    "score": 0.93,
-    "performance": 0.89,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.91
-  },
-  {
-    "path": "/administrations/assistant-secretary-research-and-technology/pipeline-and-hazardous-materials-0",
-    "score": 0.93,
-    "performance": 0.98,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.84
-  },
-  {
-    "path": "/administrations/assistant-secretary-research-and-technology/rdt-annual-modal-research-plans",
     "score": 0.92,
-    "performance": 0.88,
+    "performance": 0.85,
     "accessibility": 0.9,
     "best-practices": 1,
-    "seo": 0.89
+    "seo": 0.92
   },
   {
-    "path": "/administrations/assistant-secretary-research-and-technology/remarks-59-ghz-forum-joel-szabat",
-    "score": 0.93,
-    "performance": 0.97,
+    "path": "/administrations/assistant-secretary-research-and-technology/commercial-remote-sensing-spatial",
+    "score": 0.89,
+    "performance": 0.9,
+    "accessibility": 0.9,
+    "best-practices": 0.92,
+    "seo": 0.84
+  },
+  {
+    "path": "/administrations/assistant-secretary-research-and-technology/federal-motor-carrier-safety-1",
+    "score": 0.81,
+    "performance": 0.51,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.84
   },
   {
-    "path": "/administrations/aviation-and-international-affairs/2002-consumer-airfare-report-3rd-quarter",
+    "path": "/administrations/assistant-secretary-research-and-technology/federal-motor-carrier-safety-2",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.84
+  },
+  {
+    "path": "/administrations/assistant-secretary-research-and-technology/federal-railroad-administration-2022",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.84
+  },
+  {
+    "path": "/administrations/assistant-secretary-research-and-technology/federal-railroad-administration-fra",
+    "score": 0.91,
+    "performance": 0.89,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.84
+  },
+  {
+    "path": "/administrations/assistant-secretary-research-and-technology/intelligent-transportation-systems-1",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.84
+  },
+  {
+    "path": "/administrations/assistant-secretary-research-and-technology/national-highway-traffic-safety-4",
+    "score": 0.92,
+    "performance": 0.95,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.84
+  },
+  {
+    "path": "/administrations/assistant-secretary-research-and-technology/ost-rs-key-officials",
+    "score": 0.93,
+    "performance": 0.89,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/administrations/aviation-and-international-affairs/2002-consumer-airfare-report-1st-quarter",
     "score": 0.96,
     "performance": 1,
     "accessibility": 0.9,
@@ -344,7 +344,7 @@
     "seo": 0.92
   },
   {
-    "path": "/administrations/aviation-and-international-affairs/2003-consumer-airfare-report-2nd-quarter",
+    "path": "/administrations/aviation-and-international-affairs/2002-consumer-airfare-report-3rd-quarter",
     "score": 0.96,
     "performance": 1,
     "accessibility": 0.9,
@@ -360,7 +360,7 @@
     "seo": 0.92
   },
   {
-    "path": "/administrations/aviation-and-international-affairs/2008-consumer-airfare-report-3rd-quarter",
+    "path": "/administrations/aviation-and-international-affairs/2004-consumer-airfare-report-3rd-quarter",
     "score": 0.96,
     "performance": 1,
     "accessibility": 0.9,
@@ -368,7 +368,7 @@
     "seo": 0.92
   },
   {
-    "path": "/administrations/aviation-and-international-affairs/2010-consumer-airfare-report-1st-quarter",
+    "path": "/administrations/aviation-and-international-affairs/2009-consumer-airfare-report-2nd-quarter",
     "score": 0.96,
     "performance": 1,
     "accessibility": 0.9,
@@ -376,23 +376,23 @@
     "seo": 0.92
   },
   {
-    "path": "/administrations/aviation-and-international-affairs/2010-consumer-airfare-report-3rd-quarter",
-    "score": 0.96,
-    "performance": 1,
+    "path": "/administrations/aviation-and-international-affairs/air-cessation-big-sky",
+    "score": 0.93,
+    "performance": 0.91,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.92
   },
   {
-    "path": "/administrations/aviation-and-international-affairs/2010-consumer-airfare-report-4th-quarter",
-    "score": 0.96,
-    "performance": 1,
+    "path": "/administrations/aviation-and-international-affairs/air-cessation-florida-coastal",
+    "score": 0.93,
+    "performance": 0.91,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.92
   },
   {
-    "path": "/administrations/aviation-and-international-affairs/air-cessastion-alhona-airlines",
+    "path": "/administrations/aviation-and-international-affairs/air-cessation-independence-air-3",
     "score": 0.93,
     "performance": 0.91,
     "accessibility": 0.9,
@@ -402,21 +402,13 @@
   {
     "path": "/administrations/general-counsel/office-regulation",
     "score": 0.93,
-    "performance": 0.89,
+    "performance": 0.9,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.92
   },
   {
-    "path": "/administrations/office-assistant-secretary-administration/acquisition-policy-letter-federal-0",
-    "score": 0.93,
-    "performance": 0.88,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.92
-  },
-  {
-    "path": "/administrations/office-assistant-secretary-administration/acquisition-policy-letter-interagency",
+    "path": "/administrations/office-assistant-secretary-administration/acquisition-policy-letter-department",
     "score": 0.93,
     "performance": 0.88,
     "accessibility": 0.9,
@@ -425,8 +417,16 @@
   },
   {
     "path": "/administrations/office-assistant-secretary-administration/attrition-statistics-fy-2002",
-    "score": 0.92,
-    "performance": 0.87,
+    "score": 0.93,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/administrations/office-assistant-secretary-administration/employee-claim-wage-restitution-42207-pdf",
+    "score": 0.93,
+    "performance": 0.89,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.92
@@ -440,23 +440,7 @@
     "seo": 0.92
   },
   {
-    "path": "/administrations/office-assistant-secretary-administration/onboard-statistics-fy-2006",
-    "score": 0.93,
-    "performance": 0.88,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.92
-  },
-  {
-    "path": "/administrations/office-assistant-secretary-administration/onboard-statistics-january-fy-2010",
-    "score": 0.93,
-    "performance": 0.88,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.92
-  },
-  {
-    "path": "/administrations/office-assistant-secretary-administration/onboard-statistics-july-fy-2011",
+    "path": "/administrations/office-assistant-secretary-administration/onboard-statistics-july-fy-2010",
     "score": 0.93,
     "performance": 0.88,
     "accessibility": 0.9,
@@ -465,6 +449,22 @@
   },
   {
     "path": "/administrations/office-assistant-secretary-administration/onboard-statistics-may-fy-2011",
+    "score": 0.93,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/administrations/office-assistant-secretary-administration/promotion-statistics-fy-2007",
+    "score": 0.93,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/administrations/office-assistant-secretary-administration/promotion-statistics-fy-2008",
     "score": 0.93,
     "performance": 0.88,
     "accessibility": 0.9,
@@ -514,7 +514,7 @@
   {
     "path": "/AI",
     "score": 0.93,
-    "performance": 0.89,
+    "performance": 0.9,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.91
@@ -592,6 +592,14 @@
     "seo": 0.92
   },
   {
+    "path": "/AV/av-fact-sheet-current-regulatory-tools",
+    "score": 0.93,
+    "performance": 0.89,
+    "accessibility": 0.91,
+    "best-practices": 1,
+    "seo": 0.93
+  },
+  {
     "path": "/AV/av-fact-sheet-modern-regulatory-tools",
     "score": 0.93,
     "performance": 0.89,
@@ -606,6 +614,22 @@
     "accessibility": 0.91,
     "best-practices": 1,
     "seo": 0.93
+  },
+  {
+    "path": "/AV/av-fact-sheet-vehicle-performance-guidance",
+    "score": 0.94,
+    "performance": 0.9,
+    "accessibility": 0.91,
+    "best-practices": 1,
+    "seo": 0.93
+  },
+  {
+    "path": "/AV/avsummit",
+    "score": 0.9,
+    "performance": 0.9,
+    "accessibility": 0.91,
+    "best-practices": 0.92,
+    "seo": 0.85
   },
   {
     "path": "/AV/avsummit/agenda",
@@ -648,36 +672,12 @@
     "seo": 0.93
   },
   {
-    "path": "/AV/hub",
-    "score": 0.91,
-    "performance": 0.96,
-    "accessibility": 0.84,
-    "best-practices": 1,
-    "seo": 0.86
-  },
-  {
     "path": "/AV/nhtsa-guidance-2016-02-safety-related-defects-and-automated-safety",
     "score": 0.93,
     "performance": 0.89,
     "accessibility": 0.91,
     "best-practices": 1,
     "seo": 0.93
-  },
-  {
-    "path": "/AV/pra-notice",
-    "score": 0.94,
-    "performance": 0.93,
-    "accessibility": 0.91,
-    "best-practices": 1,
-    "seo": 0.93
-  },
-  {
-    "path": "/AV/rfp-proving-grounds-pilot",
-    "score": 0.93,
-    "performance": 0.9,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.92
   },
   {
     "path": "/BeyondTraffic/Draft-Beyond-Traffic-Framework",
@@ -689,8 +689,8 @@
   },
   {
     "path": "/BeyondTraffic/megaregion-forums",
-    "score": 0.9,
-    "performance": 0.83,
+    "score": 0.89,
+    "performance": 0.81,
     "accessibility": 0.91,
     "best-practices": 0.92,
     "seo": 0.92
@@ -721,8 +721,8 @@
   },
   {
     "path": "/Briefing-Room/MOD-Fact-Sheet-2016",
-    "score": 0.95,
-    "performance": 0.96,
+    "score": 0.94,
+    "performance": 0.95,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.92
@@ -746,7 +746,7 @@
   {
     "path": "/BUILDgrants/project-fact-sheets",
     "score": 0.92,
-    "performance": 0.92,
+    "performance": 0.93,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.86
@@ -824,20 +824,20 @@
     "seo": 0.84
   },
   {
-    "path": "/Freight/INMFNmaps/Illinois-State-Map2016",
-    "score": 0.91,
-    "performance": 0.88,
+    "path": "/Freight/Delaware-state-map",
+    "score": 0.93,
+    "performance": 0.89,
     "accessibility": 0.9,
     "best-practices": 1,
-    "seo": 0.85
+    "seo": 0.92
   },
   {
-    "path": "/Freight/INMFNmaps/Indiana-State-Map2016",
-    "score": 0.91,
-    "performance": 0.88,
+    "path": "/Freight/Illinois-State-Map",
+    "score": 0.93,
+    "performance": 0.89,
     "accessibility": 0.9,
     "best-practices": 1,
-    "seo": 0.85
+    "seo": 0.92
   },
   {
     "path": "/Freight/INMFNmaps/Maine-State-Map2016",
@@ -848,7 +848,7 @@
     "seo": 0.85
   },
   {
-    "path": "/Freight/INMFNmaps/Puerto-Rico-State-Map2016",
+    "path": "/Freight/INMFNmaps/Nebraska-State-Map2016",
     "score": 0.91,
     "performance": 0.88,
     "accessibility": 0.9,
@@ -856,7 +856,23 @@
     "seo": 0.85
   },
   {
-    "path": "/Freight/INMFNmaps/Rhode-Island-State-Map2016",
+    "path": "/Freight/INMFNmaps/Nevada-State-Map2016",
+    "score": 0.91,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/Freight/INMFNmaps/North-Carolina-State-Map2016",
+    "score": 0.91,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/Freight/INMFNmaps/Pennsylvania-State-Map2016",
     "score": 0.91,
     "performance": 0.88,
     "accessibility": 0.9,
@@ -872,7 +888,7 @@
     "seo": 0.85
   },
   {
-    "path": "/Freight/INMFNmaps/US-Map2016",
+    "path": "/Freight/INMFNmaps/Washington-State-Map2016",
     "score": 0.91,
     "performance": 0.88,
     "accessibility": 0.9,
@@ -880,7 +896,7 @@
     "seo": 0.85
   },
   {
-    "path": "/Freight/INMFNmaps/Washington-State-Map2016",
+    "path": "/Freight/INMFNmaps/Wyoming-State-Map2016",
     "score": 0.91,
     "performance": 0.88,
     "accessibility": 0.9,
@@ -896,7 +912,7 @@
     "seo": 0.92
   },
   {
-    "path": "/Freight/MFNTables/Maryland",
+    "path": "/Freight/MFNTables/Maine",
     "score": 0.93,
     "performance": 0.89,
     "accessibility": 0.91,
@@ -904,15 +920,7 @@
     "seo": 0.92
   },
   {
-    "path": "/Freight/MFNTables/Michigan",
-    "score": 0.93,
-    "performance": 0.89,
-    "accessibility": 0.91,
-    "best-practices": 1,
-    "seo": 0.92
-  },
-  {
-    "path": "/Freight/MFNTables/Minnesota",
+    "path": "/Freight/MFNTables/Mississippi",
     "score": 0.93,
     "performance": 0.89,
     "accessibility": 0.91,
@@ -936,7 +944,7 @@
     "seo": 0.92
   },
   {
-    "path": "/Freight/MFNTables/South-Carolina",
+    "path": "/Freight/MFNTables/Puerto-Rico",
     "score": 0.93,
     "performance": 0.89,
     "accessibility": 0.91,
@@ -952,9 +960,17 @@
     "seo": 0.92
   },
   {
-    "path": "/Freight/MFNTables/Tennessee",
+    "path": "/Freight/MFNTables/Texas",
     "score": 0.93,
-    "performance": 0.88,
+    "performance": 0.89,
+    "accessibility": 0.91,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/Freight/MFNTables/Vermont",
+    "score": 0.93,
+    "performance": 0.89,
     "accessibility": 0.91,
     "best-practices": 1,
     "seo": 0.92
@@ -970,13 +986,13 @@
   {
     "path": "/Freight/Mississippi-State-Map",
     "score": 0.93,
-    "performance": 0.88,
+    "performance": 0.89,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.92
   },
   {
-    "path": "/Freight/New-Mexico-State-Map",
+    "path": "/Freight/Nebraska-State-Map",
     "score": 0.93,
     "performance": 0.89,
     "accessibility": 0.9,
@@ -984,15 +1000,7 @@
     "seo": 0.92
   },
   {
-    "path": "/Freight/North-Carolina-State-Map",
-    "score": 0.93,
-    "performance": 0.89,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.92
-  },
-  {
-    "path": "/Freight/Oklahoma-State-Map",
+    "path": "/Freight/Ohio-State-Map",
     "score": 0.93,
     "performance": 0.89,
     "accessibility": 0.9,
@@ -1016,15 +1024,7 @@
     "seo": 0.92
   },
   {
-    "path": "/Freight/Washington-State-Map",
-    "score": 0.93,
-    "performance": 0.89,
-    "accessibility": 0.9,
-    "best-practices": 1,
-    "seo": 0.92
-  },
-  {
-    "path": "/Freight/Wisconsin-State-Map",
+    "path": "/Freight/Texas-State-Map",
     "score": 0.93,
     "performance": 0.89,
     "accessibility": 0.9,
@@ -1122,31 +1122,31 @@
   {
     "path": "/NRSS/Implementation",
     "score": 0.82,
-    "performance": 0.73,
+    "performance": 0.71,
     "accessibility": 0.88,
     "best-practices": 0.75,
     "seo": 0.92
   },
   {
-    "path": "/NRSS/PostCrashCare",
-    "score": 0.83,
-    "performance": 0.75,
-    "accessibility": 0.91,
+    "path": "/NRSS/SaferPeople",
+    "score": 0.81,
+    "performance": 0.78,
+    "accessibility": 0.88,
     "best-practices": 0.75,
-    "seo": 0.92
+    "seo": 0.84
   },
   {
     "path": "/NRSS/SaferSpeeds",
-    "score": 0.83,
-    "performance": 0.73,
+    "score": 0.82,
+    "performance": 0.71,
     "accessibility": 0.91,
     "best-practices": 0.75,
     "seo": 0.92
   },
   {
     "path": "/NRSS/SaferVehicles",
-    "score": 0.8,
-    "performance": 0.69,
+    "score": 0.77,
+    "performance": 0.6,
     "accessibility": 0.91,
     "best-practices": 0.75,
     "seo": 0.84
@@ -1162,7 +1162,7 @@
   {
     "path": "/NRSS/SafetyEquityClimate",
     "score": 0.95,
-    "performance": 0.97,
+    "performance": 0.98,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.93
@@ -1200,15 +1200,7 @@
     "seo": 0.86
   },
   {
-    "path": "/RAISEgrants/apply",
-    "score": 0.91,
-    "performance": 0.89,
-    "accessibility": 0.91,
-    "best-practices": 1,
-    "seo": 0.85
-  },
-  {
-    "path": "/RAISEgrants/fy2021-BCA-webinar-presentation",
+    "path": "/RAISEgrants/bcawebinar2022",
     "score": 0.94,
     "performance": 1,
     "accessibility": 0.9,
@@ -1232,6 +1224,14 @@
     "seo": 0.86
   },
   {
+    "path": "/RAISEgrants/outreach",
+    "score": 0.93,
+    "performance": 0.91,
+    "accessibility": 0.89,
+    "best-practices": 1,
+    "seo": 0.93
+  },
+  {
     "path": "/RAISEgrants/performance",
     "score": 0.96,
     "performance": 1,
@@ -1240,20 +1240,20 @@
     "seo": 0.93
   },
   {
-    "path": "/RAISEgrants/raise-info",
-    "score": 0.93,
-    "performance": 0.9,
+    "path": "/RAISEgrants/raise-app-hdc",
+    "score": 0.96,
+    "performance": 1,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.93
   },
   {
-    "path": "/RAISEgrants/resources",
-    "score": 0.91,
-    "performance": 0.91,
-    "accessibility": 0.9,
+    "path": "/RAISEgrants/urbanized-areas",
+    "score": 0.93,
+    "performance": 0.89,
+    "accessibility": 0.91,
     "best-practices": 1,
-    "seo": 0.83
+    "seo": 0.93
   },
   {
     "path": "/SaferPeopleSaferStreetsSummit",
@@ -1266,7 +1266,7 @@
   {
     "path": "/SafetyDataInitiative/Pilots",
     "score": 0.82,
-    "performance": 0.68,
+    "performance": 0.69,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.84
@@ -1440,6 +1440,14 @@
     "seo": 0.84
   },
   {
+    "path": "/TLAHT/Award",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.91,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
     "path": "/TLAHT/Cards",
     "score": 0.92,
     "performance": 0.95,
@@ -1448,20 +1456,20 @@
     "seo": 0.91
   },
   {
-    "path": "/TLAHT/Pledge",
-    "score": 0.94,
-    "performance": 0.95,
+    "path": "/TLAHT/events",
+    "score": 0.91,
+    "performance": 0.9,
     "accessibility": 0.91,
-    "best-practices": 1,
+    "best-practices": 0.92,
     "seo": 0.91
   },
   {
-    "path": "/TLAHT/Posters",
-    "score": 0.94,
+    "path": "/TLAHT/Graphics",
+    "score": 0.95,
     "performance": 0.95,
     "accessibility": 0.91,
     "best-practices": 1,
-    "seo": 0.91
+    "seo": 0.92
   },
   {
     "path": "/TLAHT/Statement",
@@ -1469,14 +1477,6 @@
     "performance": 0.95,
     "accessibility": 0.91,
     "best-practices": 1,
-    "seo": 0.91
-  },
-  {
-    "path": "/TLAHT/TakeAction",
-    "score": 0.92,
-    "performance": 0.95,
-    "accessibility": 0.91,
-    "best-practices": 0.92,
     "seo": 0.91
   },
   {
