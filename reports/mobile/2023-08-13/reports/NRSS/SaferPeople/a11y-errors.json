@@ -1,0 +1,398 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-166-DIV",
+            "path": "1,HTML,1,BODY,2,SECTION,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV",
+            "selector": "div.row > div#accordion > header#headingOne > div.collapsed",
+            "boundingRect": {
+              "top": 4,
+              "bottom": 48,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 44
+            },
+            "snippet": "<div aria-controls=\"collapseOne\" aria-expanded=\"false\" class=\"collapsed small row\" data-target=\"#collapseOne\" data-toggle=\"collapse\">",
+            "nodeLabel": "An official website of the United States government Here's how you know",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-167-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,0,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 4928,
+              "bottom": 4944,
+              "left": 26,
+              "right": 36,
+              "width": 10,
+              "height": 16
+            },
+            "snippet": "<span class=\"fab fa-facebook-f\" alt=\"Facebook\" aria-label=\"facebook\">",
+            "nodeLabel": "Facebook",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-168-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,1,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 4928,
+              "bottom": 4944,
+              "left": 67,
+              "right": 83,
+              "width": 16,
+              "height": 16
+            },
+            "snippet": "<span class=\"fab fa-twitter\" alt=\"Twitter\" aria-label=\"twitter\">",
+            "nodeLabel": "Twitter",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-169-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,2,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 4927,
+              "bottom": 4945,
+              "left": 111,
+              "right": 127,
+              "width": 16,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-instagram\" alt=\"Instagram\" aria-label=\"instagram\">",
+            "nodeLabel": "Instagram",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-170-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,3,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 4928,
+              "bottom": 4944,
+              "left": 156,
+              "right": 170,
+              "width": 14,
+              "height": 16
+            },
+            "snippet": "<span class=\"fab fa-linkedin-in\" alt=\"LinkedIn\" aria-label=\"linkedin\">",
+            "nodeLabel": "LinkedIn",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-63-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,16,DIV,0,DIV,0,DIV,1,P,1,A",
+            "selector": "div.row > div.col-md-8 > p > a",
+            "boundingRect": {
+              "top": 3703,
+              "bottom": 3723,
+              "left": 117,
+              "right": 229,
+              "width": 112,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://explore.dot.gov/views/NRSSDashboard/Dashboard/4470836a-d277-49b3-9…\">",
+            "nodeLabel": "NRSS dashboard",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.49 (foreground color: #005ea2, background color: #d3d3d3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-171-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,16,DIV",
+                  "selector": "article.node > div.node__content > div.mb-4 > div.bs_grid",
+                  "boundingRect": {
+                    "top": 3620,
+                    "bottom": 4208,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 588
+                  },
+                  "snippet": "<div class=\"bs_grid\" style=\"background: lightgray;\">",
+                  "nodeLabel": "Key Departmental Actions to Enable Safer People\n\nExplore the NRSS dashboard to …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-64-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,16,DIV,0,DIV,0,DIV,2,P,0,A",
+            "selector": "div.row > div.col-md-8 > p > a",
+            "boundingRect": {
+              "top": 3819,
+              "bottom": 3839,
+              "left": 34,
+              "right": 195,
+              "width": 161,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://explore.dot.gov/views/NRSSDashboard/Dashboard/4470836a-d277-49b3-9…\">",
+            "nodeLabel": "https://explore.dot.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.49 (foreground color: #005ea2, background color: #d3d3d3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-171-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,16,DIV",
+                  "selector": "article.node > div.node__content > div.mb-4 > div.bs_grid",
+                  "boundingRect": {
+                    "top": 3620,
+                    "bottom": 4208,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 588
+                  },
+                  "snippet": "<div class=\"bs_grid\" style=\"background: lightgray;\">",
+                  "nodeLabel": "Key Departmental Actions to Enable Safer People\n\nExplore the NRSS dashboard to …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-55-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,11,DIV,0,DIV,0,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-12 > p > a",
+            "boundingRect": {
+              "top": 2169,
+              "bottom": 2189,
+              "left": 15,
+              "right": 265,
+              "width": 250,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://explore.dot.gov/views/DV_FARS_PD/Home?%3Aembed=y&amp;%3AisGuestRedirec…\">",
+            "nodeLabel": "div.row > div.col-sm-12 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-56-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,11,DIV,0,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-12 > p > a",
+            "boundingRect": {
+              "top": 2468,
+              "bottom": 2488,
+              "left": 15,
+              "right": 265,
+              "width": 250,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://explore.dot.gov/views/DV_FARS_PC/Home?%3Aembed=y&amp;%3AisGuestRedirec…\">",
+            "nodeLabel": "div.row > div.col-sm-12 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-57-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,12,DIV,0,DIV,0,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-12 > p > a",
+            "boundingRect": {
+              "top": 2768,
+              "bottom": 2788,
+              "left": 15,
+              "right": 265,
+              "width": 250,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://explore.dot.gov/views/DV_FARS_MC/Home?%3Aembed=y&amp;%3AisGuestRedirec…\">",
+            "nodeLabel": "div.row > div.col-sm-12 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-58-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,12,DIV,0,DIV,1,DIV,1,P,0,A",
+            "selector": "div.row > div.col-sm-12 > p > a",
+            "boundingRect": {
+              "top": 3067,
+              "bottom": 3087,
+              "left": 15,
+              "right": 265,
+              "width": 250,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://explore.dot.gov/views/DV_FARS_CD/Home?%3Aembed=y&amp;%3AisGuestRedirec…\">",
+            "nodeLabel": "div.row > div.col-sm-12 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-65-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,16,DIV,0,DIV,1,DIV,0,P,0,A",
+            "selector": "div.row > div.col-md-4 > p > a",
+            "boundingRect": {
+              "top": 4021,
+              "bottom": 4041,
+              "left": 15,
+              "right": 388,
+              "width": 373,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://explore.dot.gov/views/NRSSDashboard/Dashboard/4470836a-d277-49b3-9…\">",
+            "nodeLabel": "div.row > div.col-md-4 > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-76-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,4,LI,0,A",
+            "selector": "nav.footer-social > ul.nav > li.nav-item > a",
+            "boundingRect": {
+              "top": 4920,
+              "bottom": 4952,
+              "left": 191,
+              "right": 223,
+              "width": 32,
+              "height": 32
+            },
+            "snippet": "<a href=\"https://medium.com/destinations-by-dot\">",
+            "nodeLabel": "medium",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]
