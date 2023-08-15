@@ -1,0 +1,316 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-180-DIV",
+            "path": "1,HTML,1,BODY,2,SECTION,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV",
+            "selector": "div.row > div#accordion > header#headingOne > div.collapsed",
+            "boundingRect": {
+              "top": 4,
+              "bottom": 48,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 44
+            },
+            "snippet": "<div aria-controls=\"collapseOne\" aria-expanded=\"false\" class=\"collapsed small row\" data-target=\"#collapseOne\" data-toggle=\"collapse\">",
+            "nodeLabel": "An official website of the United States government Here's how you know",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-181-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,0,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 21147,
+              "bottom": 21163,
+              "left": 26,
+              "right": 36,
+              "width": 10,
+              "height": 16
+            },
+            "snippet": "<span class=\"fab fa-facebook-f\" alt=\"Facebook\" aria-label=\"facebook\">",
+            "nodeLabel": "Facebook",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-182-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,1,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 21147,
+              "bottom": 21163,
+              "left": 67,
+              "right": 83,
+              "width": 16,
+              "height": 16
+            },
+            "snippet": "<span class=\"fab fa-twitter\" alt=\"Twitter\" aria-label=\"twitter\">",
+            "nodeLabel": "Twitter",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-183-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,2,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 21146,
+              "bottom": 21164,
+              "left": 111,
+              "right": 127,
+              "width": 16,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-instagram\" alt=\"Instagram\" aria-label=\"instagram\">",
+            "nodeLabel": "Instagram",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-184-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,3,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 21147,
+              "bottom": 21163,
+              "left": 156,
+              "right": 170,
+              "width": 14,
+              "height": 16
+            },
+            "snippet": "<span class=\"fab fa-linkedin-in\" alt=\"LinkedIn\" aria-label=\"linkedin\">",
+            "nodeLabel": "LinkedIn",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-185-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,1,P,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,B,0,SPAN,0,SPAN,0,SPAN",
+            "selector": "b > span > span > span",
+            "boundingRect": {
+              "top": 424,
+              "bottom": 441,
+              "left": 30,
+              "right": 84,
+              "width": 54,
+              "height": 17
+            },
+            "snippet": "<span style=\"color:red\">",
+            "nodeLabel": "*NEW*",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-186-SPAN",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,1,P,0,SPAN,0,SPAN",
+                  "selector": "div.my-4 > p > span > span",
+                  "boundingRect": {
+                    "top": 423,
+                    "bottom": 465,
+                    "left": 30,
+                    "right": 372,
+                    "width": 342,
+                    "height": 42
+                  },
+                  "snippet": "<span style=\"background:white\">",
+                  "nodeLabel": "*NEW* Questions about NOFO Amendment No.1 and the FY 2023 Appropriations Act:"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-187-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,72,P,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 8686,
+              "bottom": 8724,
+              "left": 78,
+              "right": 382,
+              "width": 304,
+              "height": 38
+            },
+            "snippet": "<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjgAAAAvCAIAAABhWyerAAAAAXNS…\" style=\"width:454px; height:38px\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-89-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,4,LI,0,A",
+            "selector": "nav.footer-social > ul.nav > li.nav-item > a",
+            "boundingRect": {
+              "top": 21139,
+              "bottom": 21171,
+              "left": 191,
+              "right": 223,
+              "width": 32,
+              "height": 32
+            },
+            "snippet": "<a href=\"https://medium.com/destinations-by-dot\">",
+            "nodeLabel": "medium",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

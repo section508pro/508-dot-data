@@ -1,0 +1,345 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-DIV",
+            "path": "1,HTML,1,BODY,2,SECTION,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV",
+            "selector": "div.row > div#accordion > header#headingOne > div.collapsed",
+            "boundingRect": {
+              "top": 4,
+              "bottom": 48,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 44
+            },
+            "snippet": "<div aria-controls=\"collapseOne\" aria-expanded=\"false\" class=\"collapsed small row\" data-target=\"#collapseOne\" data-toggle=\"collapse\">",
+            "nodeLabel": "An official website of the United States government Here's how you know",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,0,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 1747,
+              "bottom": 1763,
+              "left": 26,
+              "right": 36,
+              "width": 10,
+              "height": 16
+            },
+            "snippet": "<span class=\"fab fa-facebook-f\" alt=\"Facebook\" aria-label=\"facebook\">",
+            "nodeLabel": "Facebook",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,1,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 1747,
+              "bottom": 1763,
+              "left": 67,
+              "right": 83,
+              "width": 16,
+              "height": 16
+            },
+            "snippet": "<span class=\"fab fa-twitter\" alt=\"Twitter\" aria-label=\"twitter\">",
+            "nodeLabel": "Twitter",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-154-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,2,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 1746,
+              "bottom": 1764,
+              "left": 111,
+              "right": 127,
+              "width": 16,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-instagram\" alt=\"Instagram\" aria-label=\"instagram\">",
+            "nodeLabel": "Instagram",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-155-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,3,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 1747,
+              "bottom": 1763,
+              "left": 156,
+              "right": 170,
+              "width": 14,
+              "height": 16
+            },
+            "snippet": "<span class=\"fab fa-linkedin-in\" alt=\"LinkedIn\" aria-label=\"linkedin\">",
+            "nodeLabel": "LinkedIn",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-156-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,2,P",
+            "selector": "article.node > div.node__content > div.mb-4 > p",
+            "boundingRect": {
+              "top": 709,
+              "bottom": 853,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 144
+            },
+            "snippet": "<p style=\"color: red;\">",
+            "nodeLabel": "IMPORTANT! Obtaining a DUNS number and registering with SAM takes time.  Any bu…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-157-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV",
+                  "selector": "div#page-wrapper > div#page > main#main > div#main-wrapper",
+                  "boundingRect": {
+                    "top": 165,
+                    "bottom": 1553,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1388
+                  },
+                  "snippet": "<div id=\"main-wrapper\" class=\"layout-main-wrapper clearfix is-ultimenu-canvas-on\">",
+                  "nodeLabel": "In This Section\nDUNS and SAM Registration Processes\nEligible businesses are str…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-158-STRONG",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,2,P,0,STRONG",
+            "selector": "div.node__content > div.mb-4 > p > strong",
+            "boundingRect": {
+              "top": 711,
+              "bottom": 731,
+              "left": 15,
+              "right": 101,
+              "width": 86,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "IMPORTANT!",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-157-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV",
+                  "selector": "div#page-wrapper > div#page > main#main > div#main-wrapper",
+                  "boundingRect": {
+                    "top": 165,
+                    "bottom": 1553,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1388
+                  },
+                  "snippet": "<div id=\"main-wrapper\" class=\"layout-main-wrapper clearfix is-ultimenu-canvas-on\">",
+                  "nodeLabel": "In This Section\nDUNS and SAM Registration Processes\nEligible businesses are str…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-159-STRONG",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,1,DIV,0,ARTICLE,0,DIV,3,DIV,2,P,2,U,0,STRONG",
+            "selector": "div.mb-4 > p > u > strong",
+            "boundingRect": {
+              "top": 783,
+              "bottom": 851,
+              "left": 15,
+              "right": 390,
+              "width": 375,
+              "height": 68
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "These steps must be completed before submitting an application for the AMJP",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-157-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,3,MAIN,2,DIV",
+                  "selector": "div#page-wrapper > div#page > main#main > div#main-wrapper",
+                  "boundingRect": {
+                    "top": 165,
+                    "bottom": 1553,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1388
+                  },
+                  "snippet": "<div id=\"main-wrapper\" class=\"layout-main-wrapper clearfix is-ultimenu-canvas-on\">",
+                  "nodeLabel": "In This Section\nDUNS and SAM Registration Processes\nEligible businesses are str…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-61-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,4,LI,0,A",
+            "selector": "nav.footer-social > ul.nav > li.nav-item > a",
+            "boundingRect": {
+              "top": 1739,
+              "bottom": 1771,
+              "left": 191,
+              "right": 223,
+              "width": 32,
+              "height": 32
+            },
+            "snippet": "<a href=\"https://medium.com/destinations-by-dot\">",
+            "nodeLabel": "medium",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
