@@ -1,0 +1,371 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-DIV",
+            "path": "1,HTML,1,BODY,2,SECTION,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV",
+            "selector": "div.row > div#accordion > header#headingOne > div.collapsed",
+            "boundingRect": {
+              "top": 4,
+              "bottom": 29,
+              "left": 0,
+              "right": 1350,
+              "width": 1350,
+              "height": 25
+            },
+            "snippet": "<div aria-controls=\"collapseOne\" aria-expanded=\"false\" class=\"collapsed small row\" data-target=\"#collapseOne\" data-toggle=\"collapse\">",
+            "nodeLabel": "An official website of the United States government Here's how you know",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,2,HEADER,0,DIV,0,NAV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,UL,0,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 56,
+              "bottom": 74,
+              "left": 1137,
+              "right": 1148,
+              "width": 11,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-facebook-f\" aria-label=\"facebook\">",
+            "nodeLabel": "facebook",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-145-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,2,HEADER,0,DIV,0,NAV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,UL,1,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 56,
+              "bottom": 74,
+              "left": 1178,
+              "right": 1196,
+              "width": 18,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-twitter\" aria-label=\"twitter\">",
+            "nodeLabel": "twitter",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-146-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,2,HEADER,0,DIV,0,NAV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,UL,2,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 56,
+              "bottom": 74,
+              "left": 1223,
+              "right": 1239,
+              "width": 16,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-instagram\" aria-label=\"instagram\">",
+            "nodeLabel": "instagram",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-147-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,2,HEADER,0,DIV,0,NAV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,UL,3,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 56,
+              "bottom": 74,
+              "left": 1267,
+              "right": 1283,
+              "width": 16,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-linkedin-in\" aria-label=\"linkedin\">",
+            "nodeLabel": "linkedin",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-148-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,0,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 965,
+              "bottom": 983,
+              "left": 26,
+              "right": 37,
+              "width": 11,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-facebook-f\" alt=\"Facebook\" aria-label=\"facebook\">",
+            "nodeLabel": "Facebook",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-149-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,1,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 965,
+              "bottom": 983,
+              "left": 66,
+              "right": 84,
+              "width": 18,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-twitter\" alt=\"Twitter\" aria-label=\"twitter\">",
+            "nodeLabel": "Twitter",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,2,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 965,
+              "bottom": 983,
+              "left": 111,
+              "right": 127,
+              "width": 16,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-instagram\" alt=\"Instagram\" aria-label=\"instagram\">",
+            "nodeLabel": "Instagram",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,3,LI,0,A,1,SPAN",
+            "selector": "ul.nav > li.nav-item > a > span.fab",
+            "boundingRect": {
+              "top": 965,
+              "bottom": 983,
+              "left": 155,
+              "right": 171,
+              "width": 16,
+              "height": 18
+            },
+            "snippet": "<span class=\"fab fa-linkedin-in\" alt=\"LinkedIn\" aria-label=\"linkedin\">",
+            "nodeLabel": "LinkedIn",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 9
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-37-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,2,HEADER,0,DIV,0,NAV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,UL,4,LI,0,A",
+            "selector": "nav.header-social > ul.nav > li.nav-item > a",
+            "boundingRect": {
+              "top": 49,
+              "bottom": 81,
+              "left": 1303,
+              "right": 1335,
+              "width": 32,
+              "height": 32
+            },
+            "snippet": "<a href=\"https://medium.com/destinations-by-dot\">",
+            "nodeLabel": "nav.header-social > ul.nav > li.nav-item > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-49-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,NAV,0,UL,4,LI,0,A",
+            "selector": "nav.footer-social > ul.nav > li.nav-item > a",
+            "boundingRect": {
+              "top": 958,
+              "bottom": 990,
+              "left": 191,
+              "right": 223,
+              "width": 32,
+              "height": 32
+            },
+            "snippet": "<a href=\"https://medium.com/destinations-by-dot\">",
+            "nodeLabel": "medium",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,2,HEADER,0,DIV,0,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,UL,0,LI",
+            "selector": "div#block-ultimenumainnavigation > div.content > ul#ultimenu-main > li.ultimenu__item",
+            "boundingRect": {
+              "top": 32,
+              "bottom": 114,
+              "left": 565,
+              "right": 707,
+              "width": 142,
+              "height": 81
+            },
+            "snippet": "<li class=\"ultimenu__item uitem has-ultimenu\">",
+            "nodeLabel": "ABOUT DOT",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,2,HEADER,0,DIV,0,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,UL,1,LI",
+            "selector": "div#block-ultimenumainnavigation > div.content > ul#ultimenu-main > li.ultimenu__item",
+            "boundingRect": {
+              "top": 32,
+              "bottom": 114,
+              "left": 707,
+              "right": 843,
+              "width": 136,
+              "height": 81
+            },
+            "snippet": "<li class=\"ultimenu__item uitem has-ultimenu\">",
+            "nodeLabel": "PRIORITIES",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-154-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,2,HEADER,0,DIV,0,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,UL,2,LI",
+            "selector": "div#block-ultimenumainnavigation > div.content > ul#ultimenu-main > li.ultimenu__item",
+            "boundingRect": {
+              "top": 32,
+              "bottom": 114,
+              "left": 843,
+              "right": 967,
+              "width": 124,
+              "height": 81
+            },
+            "snippet": "<li class=\"ultimenu__item uitem has-ultimenu\">",
+            "nodeLabel": "CONNECT",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]
